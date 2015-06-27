@@ -72,6 +72,10 @@ bool HelloWorld::init()
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
     
+    auto testLabel = Label::createWithTTF("myTestModify", "fonts/Marker Felt.ttf", 30);
+    this->addChild(testLabel);
+    testLabel->setPosition(Vec2(200, 200));
+    
     return true;
 }
 
