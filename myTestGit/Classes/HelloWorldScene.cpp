@@ -75,6 +75,7 @@ bool HelloWorld::init()
     auto testLabel = Label::createWithTTF("myTestModify", "fonts/Marker Felt.ttf", 30);
     this->addChild(testLabel);
     testLabel->setPosition(Vec2(200, 200));
+//    modify Bug!~~
     
     return true;
 }
